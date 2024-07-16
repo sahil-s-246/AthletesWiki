@@ -8,4 +8,8 @@ Search information on players and add them to your google sheet of known players
 - Add ```cred.json``` with your Google Cloud Project Credentials:
     - The project uses the google sheet api
     - Player info is written to a sheet
-
+- Add ```val.cfg`` with the SHEET_ID
+```
+[Sheet]
+SHEET_ID = <Sheet_Id>
+```
